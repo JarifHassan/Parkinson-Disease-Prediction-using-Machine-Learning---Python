@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 
 #2. Importing Dataset
 
-df = pd.read_csv('parkinson_disease.csv')
+df = pd.read_csv('parkinson_disease.csv') #  The file is in repository
 pd.set_option('display.max_columns', 10)
 df.sample(5)
 
